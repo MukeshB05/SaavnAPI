@@ -157,4 +157,4 @@ If you like this project:
 - 💡 Suggest features  
 - 🔧 Contribute  
 
-GitHub: https://github.com/MrAbhi2k3/SaavnAPI
+GitHub: https://github.com/MukeshB05/SaavnAPI
