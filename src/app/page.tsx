@@ -121,7 +121,7 @@ export default function Home() {
 
         {/* Footer */}
         <div className="mt-16 text-center text-gray-500 text-sm">
-          <p>© 2026 MrAbhi2k3 • Built with <a href="https://github.com/MrAbhi2k3/SaavanAPI" className="text-purple-400 hover:text-purple-300">❤️</a> and <a href="https://typescriptlang.org/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300">TypeScript</a></p>
+          <p>© 2026 Mukesh B • Built with <a href="https://www.facebook.com/MukeshB2305/" className="text-purple-400 hover:text-purple-300">❤️</a> and <a href="https://typescriptlang.org/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300">TypeScript</a></p>
         </div>
       </div>
     </div>
