@@ -36,14 +36,6 @@ export default function Home() {
             >
               Get Started →
             </a>
-            <a
-              href="https://github.com/MrAbhi2k3/SaavanAPI"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-4 bg-gray-800/80 backdrop-blur-sm border border-gray-700 rounded-xl font-semibold text-white hover:bg-gray-700/80 hover:border-gray-600 transition-all duration-300 hover:scale-105"
-            >
-              View on GitHub ⭐
-            </a>
           </div>
         </div>
 
@@ -100,30 +92,22 @@ export default function Home() {
                 Created by
               </div>
               <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
-                MrAbhi2k3
+                Mukesh B
               </h2>
               <p className="text-gray-400 leading-relaxed max-w-2xl">
                 Passionate developer crafting powerful APIs and tools. Connect with me to collaborate, contribute, or just say hi!
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
                 <a
-                  href="https://github.com/MrAbhi2k3"
+                  href="https://www.instagram.com/dreamlynetwork"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-6 py-3 bg-gray-800/80 border border-gray-700 rounded-xl hover:bg-gray-700/80 hover:border-purple-500/50 transition-all duration-300"
                 >
-                  GitHub
+                  Instagram
                 </a>
                 <a
-                  href="https://linkedin.com/in/kumaarabhishek"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-6 py-3 bg-gray-800/80 border border-gray-700 rounded-xl hover:bg-gray-700/80 hover:border-blue-500/50 transition-all duration-300"
-                >
-                  LinkedIn
-                </a>
-                <a
-                  href="https://t.me/teleroidgroup"
+                  href="https://t.me/+CXnOStBpTv43Mjc1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-6 py-3 bg-gray-800/80 border border-gray-700 rounded-xl hover:bg-gray-700/80 hover:border-cyan-500/50 transition-all duration-300"
