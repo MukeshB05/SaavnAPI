@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Saavn.Dev - Unofficial JioSaavn API",
-  description: "Created By MrAbhi2k3",
+  description: "Created By MukeshB05",
 };
 
 export default function RootLayout({
