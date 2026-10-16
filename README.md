@@ -33,7 +33,7 @@ Huge thanks to the **saavn.dev** contributors for providing the core infrastruct
 
 ```bash
 # Clone repository
-git clone https://github.com/MrAbhi2k3/SaavnAPI.git
+git clone https://github.com/MukeshB05/SaavnAPI.git
 
 # Enter directory
 cd SaavnAPI
