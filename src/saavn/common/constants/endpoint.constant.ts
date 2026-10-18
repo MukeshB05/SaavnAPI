@@ -4,11 +4,13 @@ export const Endpoints = {
     topSearches: 'content.getTopSearches'
   },
   search: {
+    topSearch: 'content.getTopSearches',
     all: 'autocomplete.get',
     songs: 'search.getResults',
     albums: 'search.getAlbumResults',
     artists: 'search.getArtistResults',
-    playlists: 'search.getPlaylistResults'
+    playlists: 'search.getPlaylistResults',
+    more: 'search.getMoreResults'
   },
   radio: {
     featured: 'webradio.createFeaturedStation',
@@ -21,6 +23,11 @@ export const Endpoints = {
     albums: 'reco.getAlbumReco',
     artistOtherTopSongs: 'search.artistOtherTopSongs'
   },
+  show: {
+    show_details: 'webapi.get',
+    episodes: 'show.getAllEpisodes',
+    episode_details: 'webapi.get'
+  },
   songs: {
     id: 'song.getDetails',
     link: 'webapi.get',
@@ -30,7 +37,9 @@ export const Endpoints = {
   },
   albums: {
     id: 'content.getAlbumDetails',
-    link: 'webapi.get'
+    link: 'webapi.get',
+    recommend: 'reco.getAlbumReco',
+    sameYear: 'search.topAlbumsoftheYear'
   },
   artists: {
     id: 'artist.getArtistPageDetails',
@@ -41,7 +50,8 @@ export const Endpoints = {
   },
   playlists: {
     id: 'playlist.getDetails',
-    link: 'webapi.get'
+    link: 'webapi.get',
+    recommend: 'reco.getPlaylistReco'
   },
   discover: {
     newReleases: 'content.getAlbums',
