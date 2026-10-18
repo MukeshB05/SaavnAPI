@@ -36,11 +36,18 @@ export const Endpoints = {
     id: 'artist.getArtistPageDetails',
     link: 'webapi.get',
     songs: 'artist.getArtistMoreSong',
-    albums: 'artist.getArtistMoreAlbum'
+    albums: 'artist.getArtistMoreAlbum',
+    topSongs: 'search.artistOtherTopSongs'
   },
   playlists: {
     id: 'playlist.getDetails',
     link: 'webapi.get'
+  },
+  discover: {
+    newReleases: 'content.getAlbums',
+    topCharts: 'content.getCharts',
+    topPlaylists: 'content.getFeaturedPlaylists',
+    topArtists: 'social.getTopArtists'
   },
   modules: 'content.getBrowseModules',
   trending: 'content.getTrending'
