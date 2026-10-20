@@ -4,13 +4,11 @@ export const Endpoints = {
     topSearches: 'content.getTopSearches'
   },
   search: {
-    topSearch: 'content.getTopSearches',
     all: 'autocomplete.get',
     songs: 'search.getResults',
     albums: 'search.getAlbumResults',
     artists: 'search.getArtistResults',
-    playlists: 'search.getPlaylistResults',
-    more: 'search.getMoreResults'
+    playlists: 'search.getPlaylistResults'
   },
   radio: {
     featured: 'webradio.createFeaturedStation',
@@ -23,11 +21,6 @@ export const Endpoints = {
     albums: 'reco.getAlbumReco',
     artistOtherTopSongs: 'search.artistOtherTopSongs'
   },
-  show: {
-    show_details: 'webapi.get',
-    episodes: 'show.getAllEpisodes',
-    episode_details: 'webapi.get'
-  },
   songs: {
     id: 'song.getDetails',
     link: 'webapi.get',
@@ -37,27 +30,17 @@ export const Endpoints = {
   },
   albums: {
     id: 'content.getAlbumDetails',
-    link: 'webapi.get',
-    recommend: 'reco.getAlbumReco',
-    sameYear: 'search.topAlbumsoftheYear'
+    link: 'webapi.get'
   },
   artists: {
     id: 'artist.getArtistPageDetails',
     link: 'webapi.get',
     songs: 'artist.getArtistMoreSong',
-    albums: 'artist.getArtistMoreAlbum',
-    topSongs: 'search.artistOtherTopSongs'
+    albums: 'artist.getArtistMoreAlbum'
   },
   playlists: {
     id: 'playlist.getDetails',
-    link: 'webapi.get',
-    recommend: 'reco.getPlaylistReco'
-  },
-  discover: {
-    newReleases: 'content.getAlbums',
-    topCharts: 'content.getCharts',
-    topPlaylists: 'content.getFeaturedPlaylists',
-    topArtists: 'social.getTopArtists'
+    link: 'webapi.get'
   },
   modules: 'content.getBrowseModules',
   trending: 'content.getTrending'
